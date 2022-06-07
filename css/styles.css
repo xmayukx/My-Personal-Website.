@@ -1,0 +1,180 @@
+.top-container {
+   position: relative;
+   background-color: #CDF0EA;
+   padding-top: 100px;
+}
+
+body {
+   margin: 0;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   color: #40514E;
+}
+p{
+   line-height: 2;
+}
+h1 {
+   font-size: 5.625rem;
+   line-height: 2;
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+   color: #66BFBF;
+}
+
+h2 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.5rem;
+   color: #66BFBF;
+   font-weight: normal;
+}
+
+h3 {
+   font-family: 'Montserrat', sans-serif;
+   color: #11999E;
+}
+
+.top-cloud {
+   position: absolute;
+   top: 50px;
+   right: 350px;
+}
+
+.bottom-cloud {
+   position: absolute;
+   bottom: 300px;
+   left: 350px;
+}
+
+.music-gif {
+   width: 25%;
+   float: right;
+   margin-left: 30px;
+}
+
+.code-img {
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+
+.user-img {
+   margin-top: 100px;
+}
+
+table.center {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+a {
+   color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+   margin:10px 20px;
+   font-weight: bold;
+}
+a:hover{
+   color: black;
+}
+
+.skill-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+}
+
+.intro-msg{
+   width: 40%;
+   margin:auto;
+   margin-bottom: 100px;
+   
+}
+.contact-msg{
+   width:50%;
+   margin:50px auto 50px auto;
+  
+}
+
+.contact-me{
+   margin:50px auto 100px auto;
+}
+
+hr{
+   border-color: lightgrey;
+   border-style: dotted none none;
+   border-width: 8px;  
+   width: 5%; 
+   margin-bottom: 100px;
+}
+
+table.center{
+   margin:0 auto 0 auto;
+}
+
+
+/* CSS */
+.btn {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.btn:hover,
+.btn:active {
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.btn:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 16px 32px;
+  }
+}
+
+.bottom-container{
+   background-color: #66BFBF;
+   padding: 20px 0 20px;
+   margin-top: 50px;
+}
+
+.copyright{
+   color:#EAF6F6;
+   font-size:0.75em;
+   padding: 20px 0;
+}
+
+.footer-link{
+   text-decoration: none;
+}
